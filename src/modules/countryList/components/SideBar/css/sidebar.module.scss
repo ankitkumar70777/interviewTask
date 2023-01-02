@@ -1,0 +1,39 @@
+.sideBar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(125, 122, 122);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+
+    .mainLogoAndClose {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mainLogo img {
+        height: 100px;
+        width: 100px;
+    }
+    .closeButton{
+        font-size: 60px;
+    }
+    .dashboard,.masters{
+        padding: 5px;
+        font-size: 24px;
+    }
+    .dropdown{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .dashboard{
+        border-bottom: 1px solid black;
+        margin-top: 20px;
+    }
+}

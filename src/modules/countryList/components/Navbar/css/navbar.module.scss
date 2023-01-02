@@ -1,0 +1,21 @@
+.navbar{
+    height: 3rem;
+    width:100%;
+    // border:1px solid red;
+    background-color: rgba(0, 0, 0, 0.143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.openNavbar{
+    font-size: 35px !important;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.logout{
+    font-size: 35px !important;
+    margin-right: 1rem;
+    cursor: pointer;
+}
